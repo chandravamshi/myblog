@@ -54,7 +54,7 @@ class Post extends Model
     public static function allpost()
     {
 
-      $allpost = Post::latest()->get();
+      $allpost = Post::latest()->limit(5)->get();
 
       return  $allpost;
     }

@@ -31,20 +31,20 @@ h6,
 }
 
 /*
- * Override Bootstrap's default container.
- */
+   * Override Bootstrap's default container.
+   */
 
 .container {
   max-width: 60rem;
 }
 
 /*
- * Masthead for nav
- */
+   * Masthead for nav
+   */
 
 .blog-masthead {
   margin-bottom: 3rem;
-  background-color: rgb(207, 98, 98);
+  background-color: #e73b3b;
   box-shadow: inset 0 -0.1rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 
@@ -54,7 +54,7 @@ h6,
   position: relative;
   padding: 1rem;
   font-weight: 500;
-  color: #e8ecf0;
+  color: #cdddeb;
 }
 
 .nav-link:hover,
@@ -84,8 +84,8 @@ h6,
 }
 
 /*
- * Blog name and description
- */
+   * Blog name and description
+   */
 
 .blog-header {
   padding-bottom: 1.25rem;
@@ -111,8 +111,8 @@ h6,
 }
 
 /*
- * Main column and sidebar layout
- */
+   * Main column and sidebar layout
+   */
 
 /* Sidebar modules for boxing content */
 
@@ -144,8 +144,8 @@ h6,
 }
 
 /*
- * Blog posts
- */
+   * Blog posts
+   */
 
 .blog-post {
   margin-bottom: 4rem;
@@ -162,8 +162,15 @@ h6,
 }
 
 /*
- * Footer
- */
+   * Footer
+   */
+
+#flash-message {
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  right: 20px;
+}
 
 .blog-footer {
   padding: 2.5rem 0;
